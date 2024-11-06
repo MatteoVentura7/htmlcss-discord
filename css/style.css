@@ -1,0 +1,229 @@
+/*------------
+RESET
+-------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------
+    DEBUG
+------------*/
+
+.debug .header-bottom {
+    background-color: #00008b;
+}
+.debug .header-bottom .hero {
+    min-height: 400px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+}
+
+.debug .col-big {
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+.debug .col-small {
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
+.debug section > .container {
+    min-height: 400px;
+}
+.debug section:last-child > .container {
+    background-color: #228b22;
+    border: 1px dashed black;
+    min-height: 800px;
+}
+
+.debug .footer-top > .container {
+    min-height: 500px;
+}
+.debug .footer-top .col-footer-small {
+    background-color: #f08080;
+    border: 1px dashed black;
+}
+.debug .footer-top .col-footer-big {
+    background-color: #20b2aa;
+}
+.debug .footer-top .col-footer-big > .col-footer-inner {
+    border: 1px dashed #fff;
+}
+.debug .footer-bottom > .container {
+    background-color: #7fffd4;
+}
+
+.debug .footer-bottom .logo,
+.debug .footer-bottom .btn {
+    border: 1px dashed black;
+    background-color: #ffb6c1;
+}
+
+/*------------
+CONTAINER
+--------------*/
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------
+TYPOGRAPHY
+--------------*/
+
+body {
+    font-family: "Roboto", sans-serif;
+} 
+
+/*------------
+HEADER TOP
+--------------*/
+
+header {
+    color: white;
+}
+
+.header-top {
+    padding: 16px 0;
+    background-color: #3161E0;
+}
+
+.header-top > .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-top > .container > * {
+    padding: 6px;
+}
+
+.header-top .logo, .header-top .login {
+    width: 20%;
+
+}
+
+.header-top .login {
+    text-align: right;
+}
+
+.header-top .main-nav {
+    width: 60%;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px
+}
+
+.main-nav ul a {
+    text-decoration: none;
+    color: inherit
+}
+
+
+/*------------
+HEADER BOTTOM
+--------------*/
+
+.header-bottom {
+    padding: 30px 0;
+}
+
+.header-bottom .hero {
+    max-width: 920px;
+}
+
+/*------------
+MAIN
+------------*/
+
+section {
+    padding: 50px 0;
+}
+
+section:nth-child(2n) {
+    background-color: #d3d3d3;
+}
+
+section > .container {
+    display: flex;
+}
+
+section .col-big {
+    width: 60%;
+}
+section .col-small {
+    width: 40%;
+}
+
+section .col-bigger {
+    width: 100%;
+}
+
+/*------------
+FOOTER TOP
+--------------*/
+footer {
+    background-color: #23272a;
+}
+
+.footer-top {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-top > .container {
+    display: flex;
+}
+
+.footer-top .col-footer-small {
+    width: 30%;
+}
+.footer-top .col-footer-big {
+    width: 70%;
+    display: flex;
+}
+
+.footer-top .col-footer-big > .col-footer-inner {
+    width: 25%;
+}
+    /*------------
+FOOTER BOTTOM
+--------------*/
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-bottom > .container {
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+}
+
+.footer-bottom > .container-footer > * {
+    border: 1px dashed black;
+    padding: 6px;
+
+}
+
+.footer-bottom .logo, .footer-bottom .btn {
+    padding: 6px 14px;
+}
+
+
+
+
+
+
+
+
+
+   
