@@ -14,14 +14,8 @@ RESET
 
 
 
-.debug .col-big {
-    background-color: #1e90ff;
-    border: 1px dashed black;
-}
-.debug .col-small {
-    background-color: #ffc0cb;
-    border: 1px dashed black;
-}
+
+
 
 .debug section > .container {
     min-height: 400px;
@@ -71,11 +65,13 @@ TYPOGRAPHY
 
 body {
     font-family: "Roboto", sans-serif;
-    line-height: 1.7;
+    line-height: 1.5;
 } 
 
 h1 {
     font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
 }
 
 /*------------
@@ -193,9 +189,10 @@ section:nth-child(2n) {
     background-color: #d3d3d3;
 }
 
-section > .container {
+section > .container  {
     display: flex;
 }
+
 
 section .col-big {
     width: 60%;
