@@ -17,14 +17,7 @@ RESET
 
 
 
-.debug section > .container {
-    min-height: 400px;
-}
-.debug section:last-child > .container {
-    background-color: #228b22;
-    border: 1px dashed black;
-    min-height: 800px;
-}
+
 
 .debug .footer-top > .container {
     min-height: 500px;
@@ -74,6 +67,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
+
 /*------------
 BUTTONS
 --------------*/
@@ -100,6 +98,11 @@ BUTTONS
 
 .btn-black {
     background-color: black;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #8EA1E1;
     color: white;
 }
 
@@ -201,9 +204,11 @@ section .col-small {
     width: 40%;
 }
 
-section .col-bigger {
-    width: 100%;
+.last-sec {
+    text-align: center;
 }
+
+
 
 /*------------
 FOOTER TOP
